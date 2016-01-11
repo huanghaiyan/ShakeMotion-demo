@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1FCA3B1C4387D8001B0081 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FCA3A1C4387D8001B0081 /* MainWindow.m */; };
 		6B7C1E581C3FCCA6007F7BD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C1E571C3FCCA6007F7BD3 /* main.m */; };
 		6B7C1E5B1C3FCCA6007F7BD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C1E5A1C3FCCA6007F7BD3 /* AppDelegate.m */; };
 		6B7C1E5E1C3FCCA6007F7BD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7C1E5D1C3FCCA6007F7BD3 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B1FCA391C4387D8001B0081 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		6B1FCA3A1C4387D8001B0081 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
 		6B7C1E531C3FCCA6007F7BD3 /* ShakeMotion-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShakeMotion-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7C1E571C3FCCA6007F7BD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B7C1E591C3FCCA6007F7BD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 			children = (
 				6B7C1E591C3FCCA6007F7BD3 /* AppDelegate.h */,
 				6B7C1E5A1C3FCCA6007F7BD3 /* AppDelegate.m */,
+				6B1FCA391C4387D8001B0081 /* MainWindow.h */,
+				6B1FCA3A1C4387D8001B0081 /* MainWindow.m */,
 				6B7C1E5C1C3FCCA6007F7BD3 /* ViewController.h */,
 				6B7C1E5D1C3FCCA6007F7BD3 /* ViewController.m */,
 				6B7C1E5F1C3FCCA6007F7BD3 /* Main.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1FCA3B1C4387D8001B0081 /* MainWindow.m in Sources */,
 				6B7C1E5E1C3FCCA6007F7BD3 /* ViewController.m in Sources */,
 				6B7C1E5B1C3FCCA6007F7BD3 /* AppDelegate.m in Sources */,
 				6B7C1E581C3FCCA6007F7BD3 /* main.m in Sources */,
@@ -302,6 +308,7 @@
 				6B7C1E6C1C3FCCA7007F7BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

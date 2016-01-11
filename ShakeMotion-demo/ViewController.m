@@ -21,26 +21,26 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    [self.view becomeFirstResponder];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(shakeDetected:) name:@"NOTIFICATION_SHAKE" object:nil];
     [super viewWillAppear:animated];
 }
 
 -(void)viewWillDisappear:(BOOL)animated
 {
-    [self.view resignFirstResponder];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
     [super viewWillDisappear:animated];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
--(void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+
+-(void)shakeDetected:(NSNotification *)paramNotification
 {
-    if (event.subtype == UIEventSubtypeMotionShake) {
-        NSLog(@"shake");
-    }
+    NSLog(@"Shake not stirred");
 }
 
 - (void)didReceiveMemoryWarning {
